@@ -1,7 +1,7 @@
 import React from 'react'
 import SliderComponent2 from './SliderComponent2';
 import Cards from './Cards';
-import List from "../../public/List.json";
+import List from "../List.json";
 export default function Fruit() {
     const data = List.filter((i)=>(i.type === "fruit"));
     return (

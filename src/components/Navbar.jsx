@@ -12,9 +12,6 @@ export default function Navebar() {
       ? localStorage.getItem("serValue")
       : searchEle
   );
-  const element = document.documentElement;
-
-  
 
   useEffect(() => {
     localStorage.setItem("serValue", searchEle);
@@ -39,7 +36,7 @@ export default function Navebar() {
     <>
       <li>
         <a
-          className=" hover:bg-slate-400 text-orange-100 md:dark:text-white hover:text-black"
+          className="  dark:text-black md:dark:text-white dark:hover:text-black"
           href="/"
         >
           Home
@@ -47,7 +44,7 @@ export default function Navebar() {
       </li>
       <li>
         <a
-          className="hover:bg-slate-400 text-orange-100 md:dark:text-white hover:text-black"
+          className="dark:hover:bg-slate-100 dark:text-black md:dark:text-white dark:hover:text-black"
           href="/Fruits"
         >
           Fruits
@@ -55,7 +52,7 @@ export default function Navebar() {
       </li>
       <li>
         <a
-          className="hover:bg-slate-400 text-orange-100 md:dark:text-white hover:text-black"
+          className="dark:hover:bg-slate-100 dark:text-black md:dark:text-white dark:hover:text-black"
           href="/Vegetables"
         >
           Vegetables
@@ -63,7 +60,7 @@ export default function Navebar() {
       </li>
       <li>
         <a
-          className=" hover:bg-slate-400 text-orange-100 md:dark:text-white hover:text-black"
+          className=" dark:hover:bg-slate-100 dark:text-black md:dark:text-white dark:hover:text-black"
           href=""
         >
           About
@@ -71,6 +68,7 @@ export default function Navebar() {
       </li>
     </>
   );
+  
 
   function handleClick(e) {
     setSearchEle(e);
@@ -79,9 +77,9 @@ export default function Navebar() {
   return (
     <>
       <div
-        className={`max-w-screen-2xl z-40 bg-slate-800 container mx-auto md:px-20 px-4 top-0 sticky shadow-sm ${
+        className={`max-w-screen-2xl z-40 bg-slate-900 container mx-auto md:px-20 px-4 top-0 sticky shadow-sm ${
           sticky
-            ? "sticky-navbar shadow-md bg-slate-100 bg-slate-600 transition-all duration-200 ease-in-out"
+            ? "sticky-navbar shadow-md bg-slate-700  transition-all duration-200 ease-in-out"
             : ""
         }`}
       >
@@ -113,6 +111,7 @@ export default function Navebar() {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 {navItems}
+               
               </ul>
             </div>
             <a className="text-2xl">

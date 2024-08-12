@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import List from "../../public/List.json";
+import List from "../List.json";
 import Cards from "./Cards";
 
 function SearchingComponent() {

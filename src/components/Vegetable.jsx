@@ -1,5 +1,5 @@
 import Cards from './Cards';
-import List from "../../public/List.json";
+import List from "../List.json";
 export default function Vegetable() {
     const data = List.filter((i)=>(i.type === "vegetable"));
     return (

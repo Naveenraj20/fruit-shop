@@ -6,7 +6,7 @@ export default function Cards({item}) {
     return (
         <>
             <div className='dark:text-black '>
-            <div className="card w-auto bg-base-100 dark:bg-white shadow-xl mx-2 mt-16 mb-6 border border-gray-200 md:hover:scale-105 duration-200">
+            <div className="card w-auto bg-base-100 bg-slate-900 shadow-xl mx-2 mt-16 mb-6 border border-gray-200 md:hover:scale-105 duration-200">
   <figure><img className='w-fit h-20 mt-5' src={item.image} alt={item.name} /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -21,7 +21,7 @@ export default function Cards({item}) {
 
     <div className="card-actions justify-between">
       <div className="badge badge-outline h-8 p-2">    <div className="stat-value">Rs.{item.cost}</div></div> 
-      <div><button ><img className="h-10 bg-slate-500 rounded-lg hover:scale-125 duration-200" src="https://img.icons8.com/?size=100&id=LhRbsuC35iCh&format=png&color=000000" alt="cart" /></button></div>
+      <div><button ><img className="h-10 bg-slate-200 rounded-lg hover:scale-125 duration-200" src="https://img.icons8.com/?size=100&id=LhRbsuC35iCh&format=png&color=000000" alt="cart" /></button></div>
     </div>
   </div>
 </div>

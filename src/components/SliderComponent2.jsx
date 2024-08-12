@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import List from "../../public/List.json";
+import List from "../List.json";
 import Cards from "./Cards";
 
 export default function SliderComponent2() {
