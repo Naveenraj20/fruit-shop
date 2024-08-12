@@ -1,0 +1,146 @@
+[
+    {
+        "id" : 1,
+        "image":"https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg",
+        "name" : "apple",
+        "type" : "fruit",
+        "color" : "red",        
+        "cost" : 150,
+        "benifits" : "A good source of Nutrients, Vitamin C, and Antioxidants."
+    },
+    {
+        "id" : 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQC6GJohQegVw8Q-O8DZND247cYLnnxUlw&s",
+        "name" : "orange",
+        "type" : "fruit",
+        "color" : "orange",        
+        "cost" : 60,
+        "benifits" : "Helps your body make collagen, a protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" :3 ,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0YkfJ7Cp7AqV5e9p0fDI9yDS55YgcN9zxvg&s",
+        "name" : "banana",
+        "type" : "fruit",
+        "color" : "yellow",        
+        "cost" : 70,
+        "benifits" : "They're good for digestive and heart health."
+    },
+    {
+        "id" : 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNoiHz5EH7uMyzKBL2nDCbiuVz1kJH5WXwA&s",
+        "name" : "jackfruit",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 90,
+        "benifits" : "Jackfruit made it easier for people with diabetes to control their sugar."
+    },
+    {
+        "id" : 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-pbSBdeHFNNH5WvregdBKW2R19t6otLzqyA&s",
+        "name" : "kiwi",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 180,
+        "benifits" : "Contains Vitamin K, which plays a role in blood clotting and absorption by the body."
+    },
+    {
+        "id" : 6,
+        "image": "https://media.istockphoto.com/id/450724125/photo/multiple-mangos-one-cut-and-one-sliced-in-a-pattern.jpg?s=612x612&w=0&k=20&c=blHm_yoCxZemTw7wQgjQ4piroxM_2HI57oEnqkdXW0g=",
+        "name" : "mango",
+        "type" : "fruit",
+        "color" : "yellow",        
+        "cost" : 100,
+        "benifits" : "A good source of Nutrients, Vitamin C, and Antioxidants."
+    },
+    {
+        "id" : 7,
+        "image": "https://c0.wallpaperflare.com/preview/901/312/48/pear-tree-green-fruit.jpg",
+        "name" : "pear",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 150,
+        "benifits" : "Contains Vitamin K, which plays a role in blood clotting and absorption by the body."
+    },
+    {
+        "id" : 8,
+        "image": "https://c4.wallpaperflare.com/wallpaper/72/665/231/4k-watermelon-wallpaper-preview.jpg",
+        "name" : "watermelon",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 60,
+        "benifits" : "Keeps you Hydrated! Helps your body make collagen, a protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 9,
+        "image": "https://png.pngtree.com/png-vector/20230726/ourmid/pngtree-olive-branch-hd-image-png-image_6750704.png",
+        "name" : "olive",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 150,
+        "benifits" : "They're good for digestive and heart health."
+    },
+    {
+        "id" : 10,
+        "image": "https://png.pngtree.com/png-vector/20230726/ourmid/pngtree-olive-branch-hd-image-png-image_6750704.png",
+        "name" : "apricot",
+        "type" : "fruit",
+        "color" : "salmon",        
+        "cost" : 170,
+        "benifits" : "Helps your body make collagen, a protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 11,
+        "image": "https://www.shutterstock.com/image-photo/dried-date-green-mint-bowl-260nw-534357907.jpg",
+        "name" : "date",
+        "type" : "fruit",
+        "color" : "brown",        
+        "cost" : 120,
+        "benifits" : "A good source of Nutrients, Vitamin C, and Antioxidants."
+    },
+    {
+        "id" : 12,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AVHbKbyT_moqIfo1KiJvqwOWDgpmtBdV-Q&s",
+        "name" : "durian",
+        "type" : "fruit",
+        "color" : "green",        
+        "cost" : 160,
+        "benifits" : "Helps your body make protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 13,
+        "image": "https://t3.ftcdn.net/jpg/00/34/61/76/360_F_34617669_p9r4GrR83TBEXCZrRny6AaigqPUEPFp5.jpg",
+        "name" : "tomato",
+        "type" : "vegetable",
+        "color" : "red",        
+        "cost" : 30,
+        "benifits" : "Helps your body make protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 14,
+        "image": "https://freshunlimited.in/cdn/shop/products/Lady_Finger_612x.png?v=1609402730",
+        "name" : "lady'sfinger",
+        "type" : "vegetable",
+        "color" : "green",        
+        "cost" : 30,
+        "benifits" : "Helps your body make protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 15,
+        "image": "https://www.shutterstock.com/image-photo/carrot-vegetable-leaves-isolated-on-260nw-1089113990.jpg",
+        "name" : "carrot",
+        "type" : "vegetable",
+        "color" : "orange",        
+        "cost" : 90,
+        "benifits" : "Helps your body make protein that heals wounds and gives you smoother skin."
+    },
+    {
+        "id" : 16,
+        "image": "https://www.eatrightbasket.com/wp-content/uploads/2019/02/SS_Veg_07.jpg",
+        "name" : "beetroot",
+        "type" : "vegetable",
+        "color" : "red",        
+        "cost" : 90,
+        "benifits" : "Helps your body make protein that heals wounds and gives you smoother skin."
+    }
+]
